@@ -23,10 +23,11 @@ ul{
     padding-top: 7px;
 }
 
-.card-body{
-    text-align: center;
-    float: left;
-}
 
+
+#profilePic{
+    width: 25%;
+    height: auto;
+}
 
 
