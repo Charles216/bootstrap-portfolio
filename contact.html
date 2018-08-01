@@ -10,47 +10,49 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <div class="row">
-        <div class="col">
-            <h1>Charles Grogan</h1>
-        </div>
-                    
-        <div class="col">
-            <ul class="nav justify-content-end">
+    <div class='container'> 
+        <div class='row'>
+            <div class='col-md-6'>
+                <h1>Charles Grogan</h1>
+            </div>
+            
+            <ul class="nav justify-content-end col-md-6"> 
                 <li class="nav-item">
                     <a class="nav-link active" href="index.html" title='Return to Home Page'>About</a>
                 </li>
-                                    
+                                                    
                 <li class="nav-item">
-                        <a class="nav-link active" href="portfolio.html" title='Go to Portfolio'>Portfolio</a>
+                    <a class="nav-link active" href="portfolio.html" title='Go to Portfolio'>Portfolio</a>
                 </li>
-                                    
+                                                    
                 <li class="nav-item">
                     <a class="nav-link active" href="contact.html" title="Let's connect!">Contact</a>
                 </li>
             </ul>   
         </div>
-    </div>   
-    
-    <form>
-        <div class="form-group">
-            <label for="fullName">Enter Name Here:</label>
+    </div>
+
+    <div class='container'>
+        <div class='row'>
+            <div class='col-md-10 offset-md-1'>
+                <label for="fullName">Enter Name Here:</label>
             
-            <input type="text" class="form-control" id="fullName" placeholder="Full Name">
-        </div>
-        
-        <div class="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
+                <input type="text" class="form-control" id="fullName" placeholder="Full Name">
+           
+                <label for="exampleFormControlInput1">Email address</label>
             
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-    
-        <textarea>Send me a message, I would love to with you!</textarea>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            
+                <div class='textBox'>
+                    <textarea>Send me a message, I would love to with you!</textarea>
+                </div>
         
-        <div class='submitButton'>
-            <button type="submit" class="btn btn-primary">Submit</button>
+                <div class='submitButton'>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
         </div>
-    </form>
+    </div>
 
 
     <div class="card-footer text-muted" style="text-align: center;">
