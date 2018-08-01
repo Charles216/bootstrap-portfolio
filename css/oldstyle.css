@@ -1,0 +1,71 @@
+.row{
+    border: solid 2px black;
+    margin-top: 0;
+}
+
+h1{
+    background-color: green;
+    width: 45%;
+}
+
+.col{
+    margin-top: 1%;
+}
+
+.card{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+}
+
+#profilePic{
+    float: left;
+    margin-right: 2%;
+    margin-bottom: -1%;
+}
+
+h2{
+    margin-left: 2%;
+    margin-top: 1%;
+    text-decoration: underline;
+}
+
+.portfolioContent{
+    border: solid black 2px;
+    width: 960px;
+    margin-left: auto;
+    Margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    z-index: 0;
+}
+
+.card1{
+    border: black solid 2px;
+    margin-left: 100px;
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    
+      
+}
+
+.card-text{
+    text-align: center;
+    border: solid 1px grey;
+    padding:10px;
+    background-color: lightblue;
+}
+
+form{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px lightgrey;
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
