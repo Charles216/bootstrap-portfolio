@@ -3,6 +3,10 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
+.container{
+    border: 1px green solid;
+}
+
 h1{
     font-weight: 100;
     padding-left: 85px;
@@ -15,10 +19,6 @@ h5{
     text-decoration: underline;
 }
 
-.container{
-    border: 2px black solid;
-}
-
 ul{
     padding-top: 7px;
 }
@@ -27,5 +27,6 @@ ul{
     text-align: center;
     float: left;
 }
+
 
 
