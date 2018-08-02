@@ -7,10 +7,22 @@
     border: 1px green solid;
 }
 
+.green{
+    background-color: rgb(185, 248, 185);
+}
+
+.snow{
+    background-color: rgba(247, 230, 230, 0.938);
+}
+
 h1{
     font-weight: 100;
     padding-left: 85px;
 
+}
+.page-header{
+    margin-left: 150px;
+    text-decoration: underline;
 }
 
 h5{
@@ -23,7 +35,11 @@ ul{
     padding-top: 7px;
 }
 
-
+.logoHtml{
+    width: 555px;
+    height: auto;
+    margin-left: 0;
+}
 
 #profilePic{
     width: 25%;
